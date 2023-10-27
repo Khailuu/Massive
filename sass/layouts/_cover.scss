@@ -1,5 +1,5 @@
 .cover {
-    background-image: url("/img/cover.jpeg");
+    background-image: url("../img/cover.jpeg");
     @extend %background-img;
     &.section-padding {
         padding: $p-cov 0;

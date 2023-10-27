@@ -402,6 +402,12 @@ h3 {
   color: #222;
 }
 
+.banner {
+  height: 500px;
+  background-position: center;
+  background-attachment: inherit;
+}
+
 header {
   width: 100%;
   position: fixed;
@@ -555,7 +561,7 @@ header .massiveNavbar .navbar-collapse .nav-item:last-child .nav-link {
 
 .banner {
   height: 100vh;
-  background-image: url("/img/banner.jpeg");
+  background-image: url("../img/banner.jpeg");
   display: flex;
   justify-content: center;
   align-items: center;
@@ -584,6 +590,11 @@ header .massiveNavbar .navbar-collapse .nav-item:last-child .nav-link {
   .banner .banner__content h2 {
     font-size: 20px;
     font-weight: 400;
+  }
+}
+@media screen and (max-width: 576px) {
+  .banner {
+    height: 50vh;
   }
 }
 
@@ -634,7 +645,7 @@ header .massiveNavbar .navbar-collapse .nav-item:last-child .nav-link {
 }
 
 .skills {
-  background-image: url("/img/skills.jpeg");
+  background-image: url("../img/skills.jpeg");
 }
 .skills .skills__overlay {
   width: 100%;
@@ -957,7 +968,7 @@ header .massiveNavbar .navbar-collapse .nav-item:last-child .nav-link {
 }
 
 .cover {
-  background-image: url("/img/cover.jpeg");
+  background-image: url("../img/cover.jpeg");
 }
 .cover.section-padding {
   padding: 150px 0;
@@ -1090,7 +1101,7 @@ header .massiveNavbar .navbar-collapse .nav-item:last-child .nav-link {
 }
 
 .intro {
-  background-image: url("/img/intro.png");
+  background-image: url("../img/intro.png");
   background-attachment: fixed;
 }
 .intro .nav-item {
