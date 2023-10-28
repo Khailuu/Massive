@@ -37,10 +37,10 @@ $(".feedback___carousel").owlCarousel({
       items: 1
     },
     500: {
-      items: 2
+      items: 1
     },
     784: {
-      items: 3
+      items: 1
     },
     1215: {
       items: 1
