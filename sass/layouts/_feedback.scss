@@ -1,6 +1,10 @@
 .feedback {
     border-bottom: 1px solid $clr-feed-bdr;
     .feedback__content {
+        text-align: center;
+        h2 {
+            font-size: 60px;
+        }
         padding: 0 $p-9;
         .feedback__item {
             text-align: center;

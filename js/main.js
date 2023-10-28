@@ -106,3 +106,5 @@ $(".popup-youtube, .popup-vimeo, .popup-gmaps").magnificPopup({
   preloader: false,
   fixedContentPos: false
 });
+
+

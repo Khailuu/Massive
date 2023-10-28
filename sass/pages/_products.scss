@@ -5,6 +5,7 @@
     h1 {
         margin-left: 20px;
         font-size: 30px;
+        color: #d6b161!important;
     }
     h2 {
         margin-left: 20px;
@@ -15,6 +16,7 @@
         margin-top: 0;
         font-size: 20px;
         animation: arrowDown 1s linear infinite;
+        -webkit-animation: arrowDown 1s linear infinite;
     }
 }
 @keyframes arrowDown {
