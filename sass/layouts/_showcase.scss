@@ -75,6 +75,7 @@
         }
         .showcase__photo {
             position: relative;
+            cursor: pointer;
             img {
                 width: 100%;
             }
@@ -144,6 +145,16 @@
     @media screen and (min-width: 993px) {
         .showcase__item {
             width: 24.98%;
+        }
+    }
+    .button {
+        text-align: center;
+        margin-top: 50px;
+        button {
+            padding: 15px 30px;
+            color: #fff;
+            transition: all .5s;
+            border: none;
         }
     }
 }

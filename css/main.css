@@ -407,6 +407,19 @@ h3 {
   background-position: center;
   background-attachment: inherit;
 }
+.banner h1 {
+  margin-left: 20px;
+  font-size: 30px;
+}
+.banner h2 {
+  margin-left: 20px;
+}
+.banner i {
+  margin-left: 20px;
+  color: #fff;
+  margin-top: 5px;
+  font-size: 20px;
+}
 
 header {
   width: 100%;
@@ -539,6 +552,11 @@ header .massiveNavbar .navbar-collapse .nav-item:last-child .nav-link {
 @media screen and (min-width: 769px) and (max-width: 991.98px) {
   header .massiveNavbar .navbar-collapse .nav-link i {
     margin: 0;
+  }
+}
+@media screen and (max-width: 768px) {
+  header .navbar-nav .nav-item .nav-link {
+    padding: 10px 20px;
   }
 }
 @media screen and (min-width: 992px) {
@@ -776,6 +794,7 @@ header .massiveNavbar .navbar-collapse .nav-item:last-child .nav-link {
 }
 .showcase .showcase__content .showcase__photo {
   position: relative;
+  cursor: pointer;
 }
 .showcase .showcase__content .showcase__photo img {
   width: 100%;
@@ -841,6 +860,16 @@ header .massiveNavbar .navbar-collapse .nav-item:last-child .nav-link {
   .showcase .showcase__item {
     width: 24.98%;
   }
+}
+.showcase .button {
+  text-align: center;
+  margin-top: 50px;
+}
+.showcase .button button {
+  padding: 15px 30px;
+  color: #fff;
+  transition: all 0.5s;
+  border: none;
 }
 
 .team .section-info {

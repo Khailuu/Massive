@@ -148,6 +148,16 @@ header {
         }
     }
 
+    @media screen and (max-width: 768px) {
+        .navbar-nav {
+            .nav-item {
+                .nav-link {
+                    padding: 10px 20px;
+                }
+            }
+        }
+    }
+
     @include responsiveMobileFirst("large") {
         .massiveNavbar {
             &.resize-header {
