@@ -56,4 +56,9 @@
             background: linear-gradient(to right, transparent 0%, transparent 50%, $clr-skills-overlay-bg 0%, $clr-skills-overlay-bg 50%);
         }
     }
+    @media screen and (max-width: 992px) {
+        .skills__title {
+            height: 200px;
+        }
+    }
 }

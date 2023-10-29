@@ -36,15 +36,12 @@ $(".feedback___carousel").owlCarousel({
     0: {
       items: 1
     },
-    500: {
+    6000: {
       items: 1
     },
-    784: {
+    1000: {
       items: 1
     },
-    1215: {
-      items: 1
-    }
   }
 });
 
