@@ -575,6 +575,7 @@ header .massiveNavbar .navbar-toggler:focus {
 header .massiveNavbar .navbar-collapse {
   background-color: white;
   flex-grow: 0;
+  z-index: 1000;
 }
 header .massiveNavbar .navbar-collapse .nav-item,
 header .massiveNavbar .navbar-collapse .nav-divider {
@@ -1566,4 +1567,14 @@ footer .footer__item .footer__work li a img {
   .back-to-top {
     display: none;
   }
+}
+
+.overlay {
+  background-color: rgba(0, 0, 0, 0.5);
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  display: none;
 }/*# sourceMappingURL=main.css.map */

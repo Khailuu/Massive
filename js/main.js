@@ -19,6 +19,20 @@ $(".massiveNav .nav-link").on("click", function () {
 });
 
 
+const bars = document.querySelector('.navbar-toggler');
+const overlay = document.querySelector('.overlay');
+const navbar = document.querySelector('#navbarNav');
+if(bars) {
+  bars.addEventListener('click', (e) => {
+    overlay.style.display = "block";
+  })
+}
+if(overlay){
+  overlay.addEventListener('click', (e) =>{
+    overlay.style.display = "none";
+    navbar.classList.remove('show');
+  })
+}
 
 
 // COUNTUP
