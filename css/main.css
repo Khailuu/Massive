@@ -470,7 +470,7 @@ h3 {
   margin: 0 10px;
 }
 .detail .detail__content .row .col-xl-6 .button {
-  margin-top: 50px;
+  margin-top: 30px;
 }
 .detail .detail__content .row .col-xl-6 .button a {
   margin-right: 20px;
@@ -780,6 +780,7 @@ header .massiveNavbar .navbar-collapse .nav-item:last-child .nav-link {
 
 .skills {
   background-image: url("../img/skills.jpeg");
+  backdrop-filter: 40%;
 }
 .skills .skills__overlay {
   width: 100%;
@@ -1469,8 +1470,8 @@ footer .footer__item .footer__work li {
 footer .footer__item .footer__work li a {
   display: inline-block;
   width: 55px;
-  height: 55px;
-  margin: 0 10px 10px 0;
+  height: 50px;
+  margin-right: 10px;
 }
 footer .footer__item .footer__work li a img {
   width: 100%;
