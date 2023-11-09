@@ -23,6 +23,16 @@
                     &:hover {
                         color: $clr-pro-bar-txt;
                     }
+                    &:hover {
+                        @media screen and (max-width: 991px){
+                            color: $cLr-tab-txt
+                        }
+                    }
+                    &.active {
+                        @media screen and (max-width: 991px){
+                            color: $clr-pro-bar-txt
+                        }
+                    }
                 }
             }
         }

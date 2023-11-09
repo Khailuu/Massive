@@ -891,6 +891,16 @@ header .massiveNavbar .navbar-collapse .nav-item:last-child .nav-link {
 .showcase .showcase__filter .filter-nav .nav-item .nav-link.active, .showcase .showcase__filter .filter-nav .nav-item .nav-link:hover {
   color: #222;
 }
+@media screen and (max-width: 991px) {
+  .showcase .showcase__filter .filter-nav .nav-item .nav-link:hover {
+    color: #a9a8a8;
+  }
+}
+@media screen and (max-width: 991px) {
+  .showcase .showcase__filter .filter-nav .nav-item .nav-link.active {
+    color: #222;
+  }
+}
 .showcase .showcase__content {
   position: relative;
   height: auto;
