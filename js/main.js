@@ -22,6 +22,18 @@ $(".massiveNav .nav-link").on("click", function () {
 const bars = document.querySelector('.navbar-toggler');
 const overlay = document.querySelector('.overlay');
 const navbar = document.querySelector('#navbarNav');
+const li = document.querySelectorAll('.nav-item');
+
+for(let item of li ){
+  if(li) {
+    item.addEventListener('click', ()=> {
+    overlay.style.display = "none";
+    navbar.classList.remove('show');
+
+    })
+  }
+}
+
 if(bars) {
   bars.addEventListener('click', (e) => {
     overlay.style.display = "block";
