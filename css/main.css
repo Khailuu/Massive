@@ -380,6 +380,12 @@ h3 {
   background-color: #d6b161;
   color: white;
 }
+@media screen and (max-width: 991px) {
+  .btn--black:hover {
+    background-color: #222;
+    border-color: none !important;
+  }
+}
 .btn--black:focus {
   background-color: #d6b161;
   color: white;
@@ -391,6 +397,13 @@ h3 {
 .btn--yellow:hover {
   background-color: white;
   color: #222;
+}
+@media screen and (max-width: 991px) {
+  .btn--yellow:hover {
+    background-color: #d6b161;
+    border-color: none !important;
+    color: white;
+  }
 }
 .btn--yellow:focus {
   background-color: white;
@@ -600,6 +613,11 @@ header .massiveNavbar .navbar-collapse .nav-link i {
 header .massiveNavbar .navbar-collapse .nav-link.active, header .massiveNavbar .navbar-collapse .nav-link:focus, header .massiveNavbar .navbar-collapse .nav-link:hover {
   color: #d6b161;
 }
+@media screen and (max-width: 991px) {
+  header .massiveNavbar .navbar-collapse .nav-link.active, header .massiveNavbar .navbar-collapse .nav-link:focus, header .massiveNavbar .navbar-collapse .nav-link:hover {
+    color: #333;
+  }
+}
 header .massiveNavbar .navbar-collapse .nav-link span {
   border-left: 1px solid #f5f5f5;
   font-size: 22px;
@@ -644,6 +662,13 @@ header .massiveNavbar .navbar-collapse .nav-item:last-child .nav-link {
   header .massiveNavbar .navbar-collapse .nav-link.active, header .massiveNavbar .navbar-collapse .nav-link:focus, header .massiveNavbar .navbar-collapse .nav-link:hover {
     color: #d6b161;
   }
+}
+@media screen and (min-width: 769px) and (max-width: 991px) {
+  header .massiveNavbar .navbar-collapse .nav-link.active, header .massiveNavbar .navbar-collapse .nav-link:focus, header .massiveNavbar .navbar-collapse .nav-link:hover {
+    color: white;
+  }
+}
+@media screen and (min-width: 769px) {
   header .massiveNavbar .navbar-collapse .nav-link span {
     border: none;
     font-size: 13px;
@@ -744,6 +769,11 @@ header .massiveNavbar .navbar-collapse .nav-item:last-child .nav-link {
 }
 .design .design__item:hover .design__icon {
   background-color: #d6b161;
+}
+@media screen and (max-width: 991px) {
+  .design .design__item:hover .design__icon {
+    background-color: #222;
+  }
 }
 .design .design__item .design__icon {
   position: absolute;
@@ -1460,6 +1490,11 @@ footer .footer__item .footer__list li a::before {
 }
 footer .footer__item .footer__list li a:hover {
   color: #d6b161;
+}
+@media screen and (max-width: 991px) {
+  footer .footer__item .footer__list li a:hover {
+    color: #a2a2a2;
+  }
 }
 footer .footer__item .footer__work {
   font-size: 0;

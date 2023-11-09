@@ -26,6 +26,11 @@
                     opacity: 1;
                 }
             }
+            &:hover {
+                @media screen and (max-width: 991px) {
+                    
+                }
+            }
             i {
                 font-size: $fs-intro-i;
             }

@@ -11,6 +11,9 @@
         &:hover {
             .design__icon {
                 background-color: $clr-second;
+                @media screen and (max-width: 991px){
+                    background-color: $clr-pro-bar-txt;
+                }
             }
         }
         .design__icon {

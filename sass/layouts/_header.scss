@@ -56,6 +56,9 @@ header {
                 &:focus,
                 &:hover {
                     color: $clr-second;
+                    @media screen and (max-width: 991px){
+                        color: $clr-nav-txt-mob;
+                    }
                 }
                 span {
                     border-left: 1px solid $clr-nav-bdr-mob-2;
@@ -111,6 +114,9 @@ header {
                     &:focus,
                     &:hover {
                         color: $clr-second;
+                        @media screen and (max-width: 991px){
+                            color: $clr-dark-bg-txt;
+                        }
                     }
                     span {
                         border: none;
@@ -195,4 +201,5 @@ header {
             }
         }
     }
+    
 }

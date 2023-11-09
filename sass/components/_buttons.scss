@@ -2,6 +2,10 @@
     @include buttonStyle($clr-pro-bar-txt);
     &:hover {
         @include buttonHoverStyle($clr-second, $clr-dark-bg-txt);
+        @media screen and (max-width: 991px){
+            background-color: $clr-pro-bar-txt;
+            border-color: none !important;
+        }
     }
     &:focus {
         @include buttonFocusStyle($clr-second, $clr-dark-bg-txt);
@@ -11,6 +15,11 @@
     @include buttonStyle($clr-second);
     &:hover {
         @include buttonHoverStyle($clr-dark-bg-txt, $clr-pro-bar-txt);
+        @media screen and (max-width: 991px){
+            background-color: $clr-second;
+            border-color: none !important;
+            color: $clr-dark-bg-txt;
+        }
     }
     &:focus {
         @include buttonFocusStyle($clr-dark-bg-txt, $clr-pro-bar-txt);
